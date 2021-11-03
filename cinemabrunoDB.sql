@@ -1,0 +1,9 @@
+CREATE DATABASE cinemabruno;
+USE cinemabruno;
+
+CREATE TABLE tbl_Filme
+(
+	id		INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	filme		VARCHAR(80) NOT NULL,
+	genero		VARCHAR(200) NOT NULL
+);
